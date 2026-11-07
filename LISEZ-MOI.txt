@@ -1,0 +1,28 @@
+MES RECETTES - version installable sur Android
+================================================
+
+Contenu : index.html, manifest.webmanifest, sw.js et 4 icônes.
+Ces fichiers doivent rester ENSEMBLE dans le même dossier.
+
+METTRE EN LIGNE (GitHub Pages, gratuit)
+1. Créez un compte sur github.com puis un nouveau dépôt public (ex : "recettes").
+2. Dans le dépôt : "Add file" > "Upload files", glissez TOUS les fichiers de ce dossier
+   (dézippé), puis "Commit changes".
+3. "Settings" > "Pages" > Source : "Deploy from a branch" > branche "main", dossier "/ (root)" > Save.
+4. Après 1 à 2 minutes, l'adresse est : https://VOTRE-PSEUDO.github.io/recettes/
+
+INSTALLER SUR ANDROID
+1. Ouvrez l'adresse dans Chrome sur le téléphone.
+2. Menu (⋮) > "Installer l'application" (ou "Ajouter à l'écran d'accueil").
+3. L'icône apparaît sur l'écran d'accueil ; l'app s'ouvre en plein écran et marche hors ligne.
+
+REPRENDRE VOS RECETTES DE LA VERSION EN LIGNE
+1. Version actuelle : onglet Recettes > "Sauvegarde des données" > "Exporter (JSON)".
+2. Version Android : même endroit > "Importer…" > choisissez le fichier.
+(Les recettes, les ingrédients "déjà en stock" et les rayons choisis sont repris.)
+
+IMPORTANT
+- Les données sont enregistrées dans le téléphone, pour ce site. Effacer les données de Chrome
+  ou désinstaller l'app les supprime : exportez une sauvegarde de temps en temps.
+- Pas de synchronisation automatique entre le téléphone et l'autre version.
+- Mises à jour : remplacez les fichiers dans le dépôt ; l'app les récupère à la prochaine ouverture (en ligne).
